@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.left{
+
+   float: left; 
+   padding-right: 10px;
+
+} 
+
+.right{
+    float: right;
+   padding-left: 10px;
+}
+
+p{
+    text-align: justify;
+    clear: both;
+}
+
+/* p {
+    display: inline; 
+    vertical-align: top;  
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* approach 1 */
+/* .banner p{
+    float: right;
+}  */
+
+/* approach 2 */
+ /* .banner > p {
+    float: right;
+}  */

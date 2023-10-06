@@ -1,0 +1,48 @@
+/* 
+position: relative - position relative to it's normal position.
+
+top, left, right, bottom
+*/
+
+
+div {
+
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 80px;
+
+}
+
+p {
+    color: white;
+}
+
+.one {
+    background-color: blue;
+position: relative;
+bottom: -200px;
+/* top: 200px; */
+
+
+/* (+ive x) */
+/* left: 20%; */
+
+/* (-ive x) */
+/* right: 50%; */
+
+
+/* (+ive x) */
+/* right: -50%; */
+
+/* (+ive x) */
+left: 50%;
+}
+
+.two {
+    background-color: green;
+}
+
+.special {
+    background: red;
+    font-size: 1.5rem;
+}

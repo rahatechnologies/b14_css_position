@@ -1,0 +1,28 @@
+/* position: static  - default, always positioned according to the normal flow / html structure */
+
+
+div{
+
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 80px;
+
+}
+p{
+    color: white;
+}
+.one{
+    background-color: blue;
+    position:static;
+}
+
+.two{
+    background-color: green;
+    position: static;
+}
+
+.special{
+    background: red;
+    font-size: 1.5rem;
+    position: static;
+}
