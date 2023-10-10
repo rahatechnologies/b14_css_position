@@ -1,0 +1,64 @@
+/* 
+position:fixed -relative to viewport (screen),
+stays as we are scrolling
+*/
+
+*{
+margin: 0;
+}
+:root{
+    --navbar-height: 2rem;
+}
+
+div {
+
+    border: 3px solid red;
+    background: yellow;
+    /* margin-top: 80px; */
+}
+#content{
+
+    margin-top: var(--navbar-height);
+}
+.navbar{
+    background: red;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    position: fixed;
+    /* top: 100px; */
+    /* bottom: 0; */
+    top: 0;
+    width: 100%;
+
+    /* right: 0; */
+    /* left: 50%;     */
+    /* width: 50%; */
+   
+    /* height: 5rem; */
+    /* margin-top: 3rem; */
+   height: var(--navbar-height);
+}
+p {
+    color: white;
+}
+
+.one {
+    background-color: blue;
+}
+
+.two {
+    background-color: green;
+}
+
+.special {
+    background: red;
+    font-size: 1.5rem;
+}
+
+.banner {
+    color: white;
+    min-height: 100vh;
+    background: blue;
+    border: 3px solid red;
+}

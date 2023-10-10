@@ -1,0 +1,57 @@
+/* 
+position:sticky -  toggles between relative and fixed 
+Element will be fixed once the position is met in the viewport - then the elemnt will stick
+
+one of the values top , left , right,bottom
+*/
+
+* {
+    margin: 0;
+}
+
+:root {
+    --navbar-height: 2rem;
+}
+
+div {
+
+    border: 3px solid red;
+    background: yellow;
+    }
+#header{
+    color: black;
+}
+.navbar {
+    background: red;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+ height: var(--navbar-height);
+}
+
+p {
+    color: white;
+}
+
+.one {
+    background-color: blue;
+}
+
+.two {
+    background-color: green;
+}
+
+.special {
+    background: red;
+    font-size: 1.5rem;
+}
+
+.banner {
+    color: white;
+    min-height: 100vh;
+    background: blue;
+    border: 3px solid red;
+}
