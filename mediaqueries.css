@@ -1,0 +1,68 @@
+/*  Media Queries
+Responsive Design 
+Style Elements on Different Screen Sizes
+min-width: ---  starting from
+max-width: ---  up to
+Mobile first design
+*/
+body {
+    background: yellow;
+}
+
+.banner {
+    background: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* @media screen and (max-width: 576px) {
+
+    body {
+        background: red;
+    }
+
+    .banner {
+        background: yellow;
+    }
+
+    h1 {
+        color: black;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background: green;
+    }
+
+    .banner {
+        background: black;
+    }
+
+    h1 {
+        color: white;
+        
+    }
+} */
+
+@media screen and (max-width:768px) and (min-width: 567px){
+body {
+        background: green;
+    }
+
+    .banner {
+        background: black;
+    }
+
+    h1 {
+        color: white;
+
+    }
+}
